@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #03A696;
+    text-decoration: none;
+    
+}
+.foto {
+    padding: 5px;   
+    flex-direction: column;
+    align-items: center;
+}
+.foto-perfil {
+    box-sizing: border-box;
+    border-radius: 50%; 
+    border: 2px solid #03A696;
+    padding: 3px;
+    width: 200px;
+    
+}
+.instagram {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px;    
+    color: #03A696;
+    
+}
+.text {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #03A696;
+}
+a { color: inherit; } 
+.box {
+    box-sizing: border-box;
+    border: 2px solid ;
+    border-radius: 4px;
+    width: 326px;
+    height: 49px;
+    margin: 12px;
+   
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.social {
+    padding: 12px;
+    
+}
